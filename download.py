@@ -56,7 +56,7 @@ if __name__ == '__main__':
             +'python download.py --target https://anonymous.4open.science/r/840c8c57-3c32-451e-bf12-0e20be300389/'
     
     url = args.url
-    name = url.split('/')[-2]
+    name = url.split('/')[-1]
     max_conns = args.max_conns
 
     print("[*] cloning project:" + name)
